@@ -1,6 +1,6 @@
 pipeline {  
     environment {
-        registry = "krajewskim/python"
+        registry = "oskarq/python"
         registryCredential = 'dockerhub'
         dockerImage = ''
         KUBECTL_NAMESPACE="jenkins-deploy"
